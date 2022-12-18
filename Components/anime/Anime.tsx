@@ -6,7 +6,7 @@ const Anime = () => {
   const [data, setData] = useState([]);
   const [size, setSize] = useState(4);
 
-  const url = "https://anime-db.p.rpidapi.com/anime?page=1&size=" + size;
+  const url = "https://anime-db.p.rapidapi.com/anime?page=1&size=" + size;
 
   const options = {
     method: "GET",
