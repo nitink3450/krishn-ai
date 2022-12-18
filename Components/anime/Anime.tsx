@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useEffect, useState } from "react";
 import s from "./Anime.module.scss";
 import InfiniteScroll from "react-infinite-scroll-component";
@@ -28,6 +29,7 @@ const Anime = () => {
     getData();
   }, [size]);
   // console.log(data);
+
   return (
     <>
       <div className={s.mainCont}>
@@ -36,7 +38,7 @@ const Anime = () => {
           next={load}
           hasMore={true}
           loader={
-            <h1 style={{ marginBottom: "100px", textAlign: "center" }}>
+            <h1 style={{ margin: "100px 0", textAlign: "center" }}>
               Loading...
             </h1>
           }
@@ -63,16 +65,16 @@ const Anime = () => {
                       <div className={s.right}>
                         <h2>{ele.title} </h2>
                         <p>
-                          <b>Genres </b>: {ele.genres}{" "}
+                          <b>Genres </b>: {ele.genres}
                         </p>
                         <p>
-                          <b>Ranking</b> : {ele.ranking}{" "}
+                          <b>Ranking</b> : {ele.ranking}
                         </p>
                         <p>
-                          <b>Status </b>: {ele.status}{" "}
+                          <b>Status </b>: {ele.status}
                         </p>
                         <p>
-                          <b>Description</b> : {ele.synopsis.slice(0, 400)}
+                          <b>Description</b> : {ele.synopsis.slice(0, 100)}
                         </p>
                       </div>
                     </div>
