@@ -6,7 +6,7 @@ const Anime = () => {
   const [data, setData] = useState([]);
   const [size, setSize] = useState(4);
 
-  const url = "https://anime-db.p.rapidapi.com/anime?page=1&size=" + size;
+  const url = "https://anime-db.p.rpidapi.com/anime?page=1&size=" + size;
 
   const options = {
     method: "GET",
@@ -16,14 +16,17 @@ const Anime = () => {
     },
   };
   const getData = async () => {
-    const res = await fetch(url, options);
-    const data1 = await res.json();
-    setData(data1.data);
+    try {
+      const res = await fetch(url, options);
+      const data1 = await res.json();
+      setData(data1.data);
+    } catch (error) {
+      console.log("error", error);
+    }
   };
+
   const load = () => {
-    setTimeout(() => {
-      setSize(size + 4);
-    }, 1000);
+    setSize(size + 4);
   };
   useEffect(() => {
     getData();
@@ -50,32 +53,42 @@ const Anime = () => {
         >
           <div className={s.cards}>
             {data &&
-              data.map((ele) => {
+              data.map((ele: any, i) => {
                 return (
                   <>
-                    <div className={s.card} key={ele._id}>
+                    <div className={s.card} key={i}>
                       <div className={s.left}>
-                        <img
-                          src={ele.image}
-                          alt=""
-                          height="300px"
-                          width="230px"
-                        />
+                        {ele?.image && (
+                          <img
+                            src={ele?.image}
+                            alt=""
+                            height="300px"
+                            width="230px"
+                          />
+                        )}
                       </div>
                       <div className={s.right}>
-                        <h2>{ele.title} </h2>
-                        <p>
-                          <b>Genres </b>: {ele.genres}
-                        </p>
-                        <p>
-                          <b>Ranking</b> : {ele.ranking}
-                        </p>
-                        <p>
-                          <b>Status </b>: {ele.status}
-                        </p>
-                        <p>
-                          <b>Description</b> : {ele.synopsis.slice(0, 100)}
-                        </p>
+                        {ele?.title && <h2>{ele.title}</h2>}
+                        {ele?.genres && (
+                          <p>
+                            <b>Genres </b>: {ele.genres}
+                          </p>
+                        )}
+                        {ele?.ranking && (
+                          <p>
+                            <b>Ranking</b> : {ele.ranking}
+                          </p>
+                        )}
+                        {ele?.status && (
+                          <p>
+                            <b>Status </b>: {ele.status}
+                          </p>
+                        )}
+                        {ele?.synopsis && (
+                          <p>
+                            <b>Description</b> : {ele.synopsis.slice(0, 100)}
+                          </p>
+                        )}
                       </div>
                     </div>
                   </>
