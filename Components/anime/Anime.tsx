@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from "react";
 import s from "./Anime.module.scss";
 import InfiniteScroll from "react-infinite-scroll-component";
+import Spinner from "../common/Spin";
+// import Spinner from "../common/spin2/Spin";
 const Anime = () => {
   const [data, setData] = useState([]);
   const [size, setSize] = useState(4);
@@ -35,6 +37,10 @@ const Anime = () => {
 
   return (
     <>
+      <div className={s.spin}>
+        <Spinner size={200} />
+        {/* <Spinner/> */}
+      </div>
       <div className={s.mainCont}>
         <InfiniteScroll
           dataLength={size}
