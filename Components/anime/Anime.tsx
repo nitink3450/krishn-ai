@@ -4,7 +4,7 @@ import s from "./Anime.module.scss";
 import InfiniteScroll from "react-infinite-scroll-component";
 import Header from "../common/header/Header";
 import Footer from "../common/footer/Footer";
-import ErrorBoundary from "../common/errorBoundary/errorBoundary";
+import ErrorBoundary from "../common/errorBoundary/ErroBoundary";
 // import Spinner from "../common/spin/Spin";
 const Anime = () => {
   const [data, setData] = useState([]);
@@ -13,8 +13,7 @@ const Anime = () => {
   const [isError, setIsError] = useState(false);
 
   const url = "https://anime-db.p.rapidapi.com/anime?page=1&size=" + size;
-  const url2 ="https://jsonplaceholder.typicode.com/photos?_limit=" + size;
-
+  const url2 = "https://jsonplaceholder.typicode.com/photos?_limit=" + size;
 
   const options = {
     method: "GET",
@@ -29,7 +28,7 @@ const Anime = () => {
       const res = await fetch(url2, options);
       const data1 = await res.json();
       // console.log(data1);
-    
+
       // const mainData = data1?.data?.map((ele:any, i:number)=>{
       //   return{
       //     img : ele?.image,
