@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0px;
+  .text {
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-shadow: 3px 3px 2px rgb(255, 0, 0);
+  }
+  .btn {
+    background-color: white;
+    color: black;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: xx-large;
+    box-shadow: 3px 3px 2px blue;
+  }
+}

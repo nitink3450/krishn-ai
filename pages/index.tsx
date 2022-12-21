@@ -1,9 +1,9 @@
 import React from 'react';
-import Blog from '../Components/anime/index';
+import Anime from '../Components/anime/index';
 const Home = () => {
   return (
     <div>
-      <Blog/>
+      <Anime/>
     </div>
   )
 }

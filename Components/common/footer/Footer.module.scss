@@ -1,0 +1,17 @@
+.main {
+  width: 100vw;
+  padding: 10px 100px;
+  display: flex;
+  font-size: larger;
+  border-top: 1px solid rgb(41, 41, 41);
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: rgb(167, 167, 167);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  .left{
+    text-align: center;
+  }
+}

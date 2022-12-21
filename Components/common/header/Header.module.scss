@@ -1,0 +1,35 @@
+.main {
+  width: 100vw;
+  padding: 10px 100px;
+  display: flex;
+  font-size: larger;
+  border-bottom: 1px solid rgb(41, 41, 41);
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  color: rgb(167, 167, 167);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  .right {
+    list-style-type: none;
+    // width: 20%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    li{
+        padding-right: 40px;
+    }
+    button{
+        padding: 5px 10px;
+        font-size: large;
+        background-color: green;
+        border-radius: 20px;
+    }
+    >:hover{
+        color:white;
+    }
+  }
+}
