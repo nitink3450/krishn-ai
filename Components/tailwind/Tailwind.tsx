@@ -18,7 +18,7 @@ export default function Tailwind() {
       const res = await fetch(url);
       const data1 = await res.json();
       setData(data1?.users);
-      console.log(data1.users);
+      // console.log(data1.users);
     } catch (error) {
       setIsError(true);
       setIsLoading(false);
