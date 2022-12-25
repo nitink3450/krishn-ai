@@ -8,19 +8,16 @@ import Image from "next/image";
 const Spinner: React.FC = () => {
   const target : any = useRef(null);
   function increaseSpeed() {
-    // Set an initial speed
     var currentSpeed = 1;
     let targetSpeed = 0.08;
-
     var interval = setInterval(function () {
-
-      currentSpeed = currentSpeed - 0.02;
+      currentSpeed = currentSpeed - 0.1;
       // if (currentSpeed = targetSpeed) {
       //   clearInterval(interval);
       // }
       console.log(currentSpeed);
       target.current.style.animationDuration = `${currentSpeed}s`
-    }, 97);
+    }, 500);
     setInterval(()=>{
       clearInterval(interval);
     },4500)

@@ -1,9 +1,11 @@
 import React from 'react';
-import Anime from '../Components/anime/index';
+import Tailwind from '../Components/tailwind/Tailwind';
+// import Anime from '../Components/anime/index';
 const Home = () => {
   return (
     <div>
-      <Anime/>
+      {/* <Anime/> */}
+      <Tailwind/>
     </div>
   )
 }

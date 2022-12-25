@@ -1,14 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   images: {
-    domains: [
-      'cdn.myanimelist.net/images/anime',
-    ],
+    domains: ['robohash.org'],
   },
-  reactStrictMode: true,
-  serverRuntimeConfig: {
-    PROJECT_ROOT: __dirname,
-  },
+  // Other configuration options...
 }
-
-module.exports = nextConfig

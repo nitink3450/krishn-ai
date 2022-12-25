@@ -2,10 +2,10 @@
 import React, { useEffect, useState } from "react";
 import s from "./Anime.module.scss";
 import InfiniteScroll from "react-infinite-scroll-component";
-import Header from "../common/header/Header";
-import Footer from "../common/footer/Footer";
-import ErrorBoundary from "../common/errorBoundary/ErroBoundary";
-// import Spinner from "../common/spin/Spin";
+import Header from "./common/header/Header";
+import Footer from "./common/footer/Footer";
+import ErrorBoundary from "./common/errorBoundary/ErroBoundary";
+import Spinner from "./common/spin/Spin";
 const Anime = () => {
   const [data, setData] = useState([]);
   const [size, setSize] = useState(4);
@@ -47,7 +47,7 @@ const Anime = () => {
       console.log("finally");
     }
   };
-  console.log(data);
+  // console.log(data);
   const load = () => {
     setSize(size + 4);
   };
