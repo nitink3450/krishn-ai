@@ -15,11 +15,11 @@ export default function Card({
   },
 }: any) {
   return (
-    <div className="flex p-5 rounded-xl shadow-xl shadow-gray-700" key={id}>
-      <div className="rounded-full shadow-lg shadow-gray-700">
+    <div className="flex 4xx:flex-col p-5 rounded-xl shadow-xl shadow-gray-700" key={id}>
+      <div className="rounded-full overflow-hidden shadow-lg 4xx:flex 4xx:justify-center shadow-gray-700">
         {image && <Image src={image} alt="" height={200} width={200} />}
       </div>
-      <div className="ml-5">
+      <div className="ml-5 4xx:mt-[30px]">
         {firstName && lastName && (
           <p>
             <b>Full Name : </b>

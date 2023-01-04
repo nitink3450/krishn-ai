@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import ErrorBoundary from "../anime/common/errorBoundary/ErroBoundary";
+import BreakPoints from "../breakPoints/BreakPoints";
 import Card from "./common/card/Card";
 import Footer from "./common/footer/Footer";
 import Header from "./common/header/Header";
@@ -18,7 +19,7 @@ export default function Tailwind() {
       const res = await fetch(url);
       const data1 = await res.json();
       setData(data1?.users);
-      // console.log(data1.users);
+
     } catch (error) {
       setIsError(true);
       setIsLoading(false);
@@ -40,6 +41,7 @@ export default function Tailwind() {
     <>
       <div>
         <Header />
+        {/* <BreakPoints/> */}
         {isError ? (
           <div className="mt-28 p-20">
             <ErrorBoundary
@@ -67,7 +69,7 @@ export default function Tailwind() {
                 </p>
               }
             >
-              <div className="p-5 h-fit w-fit grid grid-cols-3 gap-10">
+              <div className="p-5 h-fit w-fit grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                 {data &&
                   data?.map((user, i) => {
                     return <Card key={i} data={user} />;
@@ -76,7 +78,11 @@ export default function Tailwind() {
             </InfiniteScroll>
           </div>
         )}
-
+        <form>
+          <div className="borderRed">
+            Hello world!
+          </div>
+        </form>
         <Footer />
       </div>
     </>
