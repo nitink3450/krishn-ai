@@ -8,7 +8,7 @@ interface CardProps {
 
 const CategoryCard: React.FC<CardProps> = ({ src, category }) => {
   return (
-    <li className="shadow-2xl group hover:scale-[1.1] p-[10px] bg-white hover:bg-red-400 rounded-lg w-fit flex-row transition duration-500 cursor-pointer">
+    <li className="shadow-2xl group hover:scale-[1.1] p-[10px] bg-white hover:bg-red-400 rounded-lg w-fit transition duration-500 cursor-pointer ">
       <div className="border rounded-full h-[100px] relative w-[100px]">
         <Image
           src={`/${src}.jpg`}

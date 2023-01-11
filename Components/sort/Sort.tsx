@@ -3,6 +3,8 @@ import CategoryCard from "./common/CategoryCard";
 import data from "../../data/data";
 import Select from "react-select";
 import { defaultStyles } from "react-select/dist/declarations/src/styles";
+import DetailCard from "./common/DetailCard";
+import Slider from "react-slick";
 
 const options = [
   { value: "highToLow", label: "High to Low" },
@@ -15,7 +17,7 @@ export default function Sort() {
     value: String;
     label: String;
   } | null>();
-  console.log("hh:", selectedOption);
+  // console.log("hh:", selectedOption);
 
   //select function
   const handleChange = (
@@ -86,18 +88,56 @@ export default function Sort() {
       // backgroundColor: "#000",
     }),
   };
+
+  //Slider settings
+  var settings = {
+    dots: false,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    initialSlide: 0,
+    // responsive: [
+    //   {
+    //     breakpoint: 1024,
+    //     settings: {
+    //       slidesToShow: 3,
+    //       slidesToScroll: 3,
+    //       infinite: true,
+    //       dots: true
+    //     }
+    //   },
+    //   {
+    //     breakpoint: 600,
+    //     settings: {
+    //       slidesToShow: 2,
+    //       slidesToScroll: 2,
+    //       initialSlide: 2
+    //     }
+    //   },
+    //   {
+    //     breakpoint: 480,
+    //     settings: {
+    //       slidesToShow: 1,
+    //       slidesToScroll: 1
+    //     }
+    //   }
+    // ]
+  };
   return (
     <>
-      <main className="h-fit md:h-screen flex-col px-2 py-3 md:py-5  md:px-10">
+      <main className="h-fit flex-col px-2 py-3 md:py-5  md:px-10">
         <h1 className="font-Mohave font-bold text-[34px] sm:text-[55px] md:text-[66px] lg:text-[77px] xl:text-[88px] text-center  font-stroke">
           OUR CATEGORIES
         </h1>
-        <ul className="border flex gap-5 p-[20px] justify-center overflow-auto">
-          {data &&
-            data?.map((card, i) => {
-              return <CategoryCard key={i} {...card} />;
-            })}
-        </ul>
+        {/* <ul className="border flex gap-5 p-[20px] justify-center overflow-hidden"> */}
+          <Slider className="border border-red-500 h-[300px] overflow-hidden " {...settings}>
+            {data &&
+              data?.map((card, i) => {
+                return <CategoryCard key={i} {...card} />;
+              })}
+          </Slider>
+        {/* </ul> */}
         <section className="border mt-[50px] flex justify-center">
           <Select
             className=" min-w-[260px] w-auto md:w-[300px] "
@@ -109,7 +149,9 @@ export default function Sort() {
             styles={customStyles}
           />
         </section>
-        <section className="border h-screen mt-[50px] flex-wrap ">hii</section>
+        <section className="border h-screen mt-[50px] flex-wrap ">
+          <DetailCard />
+        </section>
       </main>
     </>
   );

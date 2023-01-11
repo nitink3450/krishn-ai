@@ -48,6 +48,7 @@ module.exports = {
     },
     fontFamily: {
       Mohave: ["Mohave", "sans-serif"],
+      Montserrat: ["Montserrat", "sans-serif"],
     },
   },
   // Daisyui plugin to chnage componnets

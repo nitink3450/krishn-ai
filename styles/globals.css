@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mohave:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -107,7 +108,66 @@ a {
   .font-stroke {
     -webkit-text-stroke: 0.5px black;
     font-weight: 700;
-    background-color:transparent;
+    background-color: transparent;
     color: transparent;
   }
+
+  .mainDiv {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 500px;
+    background: linear-gradient(180deg, #70f, #40f);
+  }
+
+  .container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+  }
+
+  .item {
+    width: 150px;
+    height: 150px;
+    background: white;
+    border-radius: inherit;
+  }
+
+  .stroke-class::after {
+    content: "NIKE";
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-text-stroke: 0.15vw black;
+    color: transparent;
+    z-index: 100;
+  }
+
+  .shoeAnime {
+    animation: anime 2s cubic-bezier(0.25, 1, 0.5, 1) infinite alternate;
+  }
+
+  @keyframes anime {
+
+    0%,
+    10% {
+      transform: translateX(100vw) rotate(15deg);
+    }
+
+    90%,
+    100% {
+      transform: translate(-5vw, -5vw) rotate(-30deg);
+    }
+  }
+
 }

@@ -78,11 +78,11 @@ export default function Tailwind() {
             </InfiniteScroll>
           </div>
         )}
-        <form>
+        {/* <form>
           <div className="borderRed">
             Hello world!
           </div>
-        </form>
+        </form> */}
         <Footer />
       </div>
     </>
