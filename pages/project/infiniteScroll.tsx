@@ -5,7 +5,7 @@ import Lable from '../../Components/common/Label/Lable'
 export default function infiniteScroll() {
   return (
     <div>
-      <Lable title="Infinite scroll with SASS" />
+      <Lable title="Fetching data + infinite scroll + SASS" />
         <Anime/>
     </div>
   )

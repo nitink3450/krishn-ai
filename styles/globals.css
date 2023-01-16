@@ -167,6 +167,12 @@ a {
     background: linear-gradient(110.5057981109727deg, rgba(240, 94, 7, 1) 5.533854166666667%, rgba(30, 189, 177, 1) 96.67968749999999%);
     color: black;
   }
+  .animationBg{
+    animation: backgroundChange 3s linear infinite 0s;
+  }
+  @keyframes backgroundChange {
+    
+  }
 
   .title {
     position: relative;

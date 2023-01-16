@@ -5,7 +5,7 @@ import Tailwind from "../../Components/tailwind/Tailwind";
 function TailwindPage() {
   return (
     <>
-      <Lable title="Fetching data with tailwind" />
+      <Lable title="Fetching data + infinite scroll + tailwind" />
       <Tailwind />
     </>
   );
