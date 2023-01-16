@@ -113,6 +113,7 @@ a {
     color: transparent;
   }
 
+  /* framer starts */
   .mainDiv {
     width: 100vw;
     height: 100vh;
@@ -123,7 +124,7 @@ a {
     justify-content: center;
     align-items: center;
     perspective: 500px;
-    background: linear-gradient(180deg, #70f, #40f);
+    background: linear-gradient(180deg, rgb(255, 183, 0), rgb(140, 255, 0));
   }
 
   .container {
@@ -133,17 +134,18 @@ a {
     place-content: center;
     place-items: center;
     overflow: hidden;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.9);
     border-radius: 30px;
   }
 
   .item {
     width: 150px;
     height: 150px;
-    background: white;
+    background: rgb(0, 195, 255);
     border-radius: inherit;
   }
 
+  /* framer ends */
   .stroke-class::after {
     content: "NIKE";
     position: absolute;
@@ -167,12 +169,12 @@ a {
     background: linear-gradient(110.5057981109727deg, rgba(240, 94, 7, 1) 5.533854166666667%, rgba(30, 189, 177, 1) 96.67968749999999%);
     color: black;
   }
-  .animationBg{
+
+  .animationBg {
     animation: backgroundChange 3s linear infinite 0s;
   }
-  @keyframes backgroundChange {
-    
-  }
+
+  @keyframes backgroundChange {}
 
   .title {
     position: relative;
