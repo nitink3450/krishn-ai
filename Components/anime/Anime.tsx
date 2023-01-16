@@ -6,7 +6,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
 import Footer from "./common/footer/Footer";
 import ErrorBoundary from "./common/errorBoundary/ErroBoundary";
 import Spinner from "./common/spin/Spin";
-import Header from "../tailwind/common/header/Header";
+import Header from "../common/header/Header";
 const Anime = () => {
   const [data, setData] = useState([]);
   const [size, setSize] = useState(4);
@@ -62,8 +62,6 @@ const Anime = () => {
         <Spinner />
       </div> */}
       <div className={s.mainCont}>
-        {/* <Header /> */}
-        <Header/>
         {isError ? (
           <ErrorBoundary
             setIsError={() => {

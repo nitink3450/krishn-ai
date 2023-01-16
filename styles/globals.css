@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mohave:ital,wght@1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -155,6 +156,95 @@ a {
 
   .shoeAnime {
     animation: anime 2s cubic-bezier(0.25, 1, 0.5, 1) infinite alternate;
+  }
+
+  .buttonBg {
+    background: linear-gradient(110.5057981109727deg, rgba(6, 227, 250, 1) 5.533854166666667%, rgba(229, 151, 64, 1) 96.67968749999999%);
+    color: black;
+  }
+
+  .cardBg {
+    background: linear-gradient(110.5057981109727deg, rgba(240, 94, 7, 1) 5.533854166666667%, rgba(30, 189, 177, 1) 96.67968749999999%);
+    color: black;
+  }
+
+  .title {
+    position: relative;
+    cursor: pointer;
+    color: transparent;
+    -webkit-text-stroke: 2px White;
+  }
+
+  .title::before {
+    content: "Projects";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    color: white;
+    -webkit-text-stroke: 0px transparent;
+    overflow: hidden;
+    transition: width 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+  .title:hover::before {
+    width: 103%;
+  }
+
+  .svgMulti {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(110.5057981109727deg, rgba(231, 62, 162, 1) 5.533854166666667%, rgba(248, 193, 105, 1) 96.67968749999999%)
+  }
+
+  .svgMultiPath {
+    height: 100%;
+    width: 100%;
+  }
+
+  .svgMultiPath-text {
+    font-size: 200px;
+    fill: rgba(0, 0, 0, 0.1);
+    stroke-width: 2px;
+    stroke: rgb(255, 255, 255);
+    stroke-linejoin: round;
+    stroke-dasharray: 80;
+    animation: anim1 linear 1s infinite;
+  }
+
+  svg text {
+    font-size: 200px;
+    fill: rgba(0, 0, 0, 0.1);
+    stroke-width: 2px;
+    stroke: rgb(255, 255, 255);
+    stroke-linejoin: round;
+    stroke-dasharray: 80;
+    animation: anim linear 1s infinite;
+  }
+
+
+  #sign {
+    stroke-dasharray: 1186;
+    animation: anim 2s linear forwards;
+  }
+
+  @keyframes anim1 {
+    to {
+      stroke-dashoffset: 160;
+    }
+
+  }
+
+  @keyframes anim {
+    from {
+      stroke-dashoffset: 1186;
+    }
+
+    to {
+      stroke-dashoffset: 0;
+    }
   }
 
   @keyframes anime {

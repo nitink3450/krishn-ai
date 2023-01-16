@@ -127,17 +127,24 @@ export default function Sort() {
   return (
     <>
       <main className="h-fit flex-col px-2 py-3 md:py-5  md:px-10">
-        <h1 className="font-Mohave font-bold text-[34px] sm:text-[55px] md:text-[66px] lg:text-[77px] xl:text-[88px] text-center  font-stroke">
+        <h1 className="font-Mohave mt-16 font-bold text-[34px] sm:text-[55px] md:text-[66px] lg:text-[77px] xl:text-[88px] text-center  font-stroke">
           OUR CATEGORIES
         </h1>
-        {/* <ul className="border flex gap-5 p-[20px] justify-center overflow-hidden"> */}
-          <Slider className="border border-red-500 h-[300px] overflow-hidden " {...settings}>
-            {data &&
-              data?.map((card, i) => {
-                return <CategoryCard key={i} {...card} />;
-              })}
-          </Slider>
-        {/* </ul> */}
+        <ul className="border flex gap-5 p-[20px] justify-center overflow-auto">
+          {/* <Slider
+            className="border border-red-500 h-[300px] overflow-hidden "
+            {...settings}
+          > */}
+          {data &&
+            data?.map((card, i) => {
+              return (
+                <>
+                  <CategoryCard key={i} {...card} />
+                </>
+              );
+            })}
+          {/* </Slider> */}
+        </ul>
         <section className="border mt-[50px] flex justify-center">
           <Select
             className=" min-w-[260px] w-auto md:w-[300px] "

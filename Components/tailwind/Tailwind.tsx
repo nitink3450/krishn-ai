@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import ErrorBoundary from "../anime/common/errorBoundary/ErroBoundary";
-import BreakPoints from "../breakPoints/BreakPoints";
 import Card from "./common/card/Card";
-import Footer from "./common/footer/Footer";
-import Header from "./common/header/Header";
+import Footer from "../common/footer/Footer";
+import Header from "../common/header/Header";
 
 export default function Tailwind() {
   const [data, setData] = useState([]);
@@ -19,7 +18,6 @@ export default function Tailwind() {
       const res = await fetch(url);
       const data1 = await res.json();
       setData(data1?.users);
-
     } catch (error) {
       setIsError(true);
       setIsLoading(false);
