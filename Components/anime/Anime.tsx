@@ -28,14 +28,6 @@ const Anime = () => {
       setIsLoading(true);
       const res = await fetch(url2, options);
       const data1 = await res.json();
-      // console.log(data1);
-
-      // const mainData = data1?.data?.map((ele:any, i:number)=>{
-      //   return{
-      //     img : ele?.image,
-      //   }
-      // })
-
       setData(data1);
       console.log("try");
     } catch (error) {

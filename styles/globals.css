@@ -178,17 +178,19 @@ a {
 
   .title {
     position: relative;
-    cursor: pointer;
     color: transparent;
     -webkit-text-stroke: 2px White;
+    /* -webkit-text-stroke: 2px #A9FF1C; */
+    stroke-linejoin: round;
   }
 
   .title::before {
-    content: "Projects";
+    content: attr(title);
     position: absolute;
     width: 0;
     height: 100%;
-    color: white;
+    /* color: white; */
+    color: #A9FF1C;
     -webkit-text-stroke: 0px transparent;
     overflow: hidden;
     transition: width 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);

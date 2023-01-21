@@ -14,13 +14,17 @@ const elements = [
   { name: "Sort Filter with Ecart cards", link: "/project/sortPage" },
   { name: "SVG Sigle path Stroke animation", link: "/project/svgSingle" },
   { name: "SVG Multi path Stroke animation", link: "/project/svgMulti" },
+  { name: "async to dsync", link: "/project/async" },
 ];
 
 const Home = () => {
   return (
     <div className="bg-black p-4">
       <div className="flex justify-center items-center">
-        <h1 className="text-[200px] text-center title font-Mohave italic">
+        <h1
+          title="Projects"
+          className="text-[200px] text-center title font-Mohave italic"
+        >
           Projects
         </h1>
       </div>
