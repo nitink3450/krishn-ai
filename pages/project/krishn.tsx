@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Krishn = () => {
   return (
-    <div className=" bg-[url('/backKrishn.jpg')] bg-cover text-center overflow-hidden h-[100vh] flex justify-center items-center relative">
+    <div className=" bg-[url('/krishnBackImg.jpg')] bg-cover text-center overflow-hidden h-[100vh] flex justify-center items-center relative">
       <motion.div
         initial={{ scale: 1.1 }}
         animate={{ scale: 1 }}
@@ -11,17 +11,17 @@ const Krishn = () => {
         className=""
       >
         <motion.div
-          className="leaf absolute h-[32px] w-[32px]"
+          className="leaf absolute h-[36px] w-[36px]"
           initial={{
-            y: -200,
+            y: -320,
             x: -50,
             skewX: 0,
             opacity: 0,
           }}
           animate={{
             opacity: 1,
-            y: -4,
-            x: [0, -50, 10, -70, -25],
+            y: 2,
+            x: [0, -50, 30, -70, -40],
             rotate: [-10, 10, -10, 0],
             skewX: [10, -10, 10, 0],
             transition: { duration: 3 },
@@ -29,7 +29,7 @@ const Krishn = () => {
         >
           <img src="/feather.png" alt="feather" />
         </motion.div>
-        <motion.div className="h-[18px] w-[90px] font-Inter font-bold text-white">
+        <motion.div className="h-[24px] w-[90px] font-Inter font-bold text-white text-[24px]">
           {"krishn.ai".split("").map((char, i) => (
             <motion.span
               key={i}
