@@ -15,7 +15,7 @@ module.exports = {
 
       '3xxx': { "max": '360px' },
       // => @media (max-width: 360px) { ... }
-      
+
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
 
@@ -32,7 +32,7 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
-       // custom colors for tailwind classes
+      // custom colors for tailwind classes
       colors: {
         white: "#ffffff",
         "light-green": "#37E6C6",
@@ -49,6 +49,7 @@ module.exports = {
     fontFamily: {
       Mohave: ["Mohave", "sans-serif"],
       Montserrat: ["Montserrat", "sans-serif"],
+      Inter: ["Inter", "sans-serif"],
     },
   },
   // Daisyui plugin to chnage componnets

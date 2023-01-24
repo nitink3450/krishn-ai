@@ -15,6 +15,7 @@ const elements = [
   { name: "SVG Sigle path Stroke animation", link: "/project/svgSingle" },
   { name: "SVG Multi path Stroke animation", link: "/project/svgMulti" },
   { name: "async to dsync", link: "/project/async" },
+  { name: "krishn.ai", link: "/project/krishn" },
 ];
 
 const Home = () => {
