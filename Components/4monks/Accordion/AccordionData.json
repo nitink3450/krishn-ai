@@ -1,0 +1,50 @@
+[
+  {
+    "id": 0,
+    "title": "Get that Range",
+    "list": [
+      {
+        "id": 0,
+        "vidioLink": "/images/Gen4/videos/natureClip.mp4",
+        "title": "True Range",
+        "tradeMark": true,
+        "desc": "Our true range is your true range",
+        "features": [
+          {
+            "id": 0,
+            "feature1": "115",
+            "desc": "Kms True Range",
+            "desc1": "Certified Range 156 Kms",
+            "details": true,
+            "tradeMark": true
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "vidioLink": "/images/Gen4/videos/natureClip.mp4",
+        "title": "Throttle mapping",
+        "desc": "Lorem ipsum dolor sit amet consectetur. Nunc turpis vitae varius."
+      },
+      {
+        "id": 2,
+        "vidioLink": "/images/Gen4/videos/natureClip.mp4",
+        "title": "Coasting Re-gen",
+        "desc": "Lorem ipsum dolor sit amet consectetur. Nunc turpis vitae varius."
+      },
+      {
+        "id": 3,
+        "vidioLink": "/images/Gen4/videos/natureClip.mp4",
+        "title": "Trip Planner",
+        "desc": "Lorem ipsum dolor sit amet consectetur. Nunc turpis vitae varius."
+      },
+      {
+        "id": 4,
+        "vidioLink": "/images/Gen4/videos/natureClip.mp4",
+        "title": "Smart Eco",
+        "desc": "Lorem ipsum dolor sit amet consectetur. Nunc turpis vitae varius.",
+        "tradeMark": true
+      }
+    ]
+  }
+]

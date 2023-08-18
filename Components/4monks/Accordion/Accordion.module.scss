@@ -1,0 +1,103 @@
+.accordion {
+  width: 100%;
+  overflow: hidden;
+  // border: 1px solid red;
+  min-height: 680px;
+
+  .item {
+    border-bottom: 1px solid #e8e8e8;
+    // margin-bottom: 10px;
+
+    .heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      padding: 24px 0px;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 24px;
+      display: flex;
+      align-items: center;
+      color: #191919;
+      .tm {
+        font-size: 14px;
+        color: #191919;
+      }
+
+      .arrow {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        // background-color: #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        color: #fff;
+      }
+
+      &.active {
+        background-color: #ccc;
+        display: none;
+
+        .arrow {
+          //   background-color: #000;
+        }
+      }
+    }
+
+    .content {
+      max-height: 0;
+      overflow: hidden;
+      //   padding: 0 10px;
+      opacity: 0.5;
+      filter: blur(1px);
+      transition: all 0.5s ease-out;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 8px;
+
+      &.active {
+        max-height: 500px;
+        padding: 24px 0;
+        opacity: 1;
+        filter: none;
+        transition: all 0.5s ease-in;
+      }
+      .heading1 {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 24px;
+        color: #191919;
+        margin-top: 4px;
+        width: 100%;
+        text-align: start;
+        .tm {
+          font-size: 14px;
+          color: #191919;
+        }
+      }
+      .description {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #5c6470;
+        text-align: start;
+        width: 100%;
+      }
+      .vidioWrapper {
+        // height: 280px;
+        width: 100%;
+        background: #e8e8e8;
+        border-radius: 8px;
+        // border: 1px solid red;
+      }
+    }
+  }
+  .item:last-child {
+    border-bottom: 1px solid transparent;
+  }
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "tabs": [
+      {
+        "id": 1,
+        "name": "At Home",
+        "url": "/images/gen4/charging/1.png",
+        "title": "Ather Dot  / Portable Charger",
+        "text": "Personal Charger fixed at your parking spot. Charge using any 5Amp socket. Carry it your boot.",
+        "chargeIcon": "/images/gen4/charge.svg",
+        "chargeText": "0-80% in 4h 30min",
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "name": "At work",
+        "url": "/images/gen4/charging/2.png",
+        "title": "Ather neighbourhood charger",
+        "text": "Societies, offices, universities, Charge where you are",
+        "chargeIcon": "/images/gen4/charge.svg",
+        "chargeText": "0-80% in 4h 30min",
+        "link": "#"
+      },
+      {
+        "id": 3,
+        "name": "On the go",
+        "url": "/images/gen4/charging/3.png",
+        "title": "Ather Fast Charger",
+        "text": "Public chargers to top up on-the-go",
+        "chargeIcon": "/images/gen4/fast-charge.svg",
+        "chargeText": "Fast charge 15Km in 10min",
+        "link": "#"
+      }
+    ]
+  }
+]

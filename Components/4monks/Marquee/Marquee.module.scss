@@ -1,0 +1,331 @@
+.WN_Sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 37px;
+  flex-direction: column;
+  background-color: #000000;
+  padding: 117px 24px 60px;
+  @media screen and (max-width: 767px) {
+    gap: 0;
+  }
+  .marquee_1 {
+    height: 76.2px;
+    width: 231.93px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #fde16a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .shadow {
+      position: absolute;
+      top: 5px;
+      left: 50%;
+      //   right: 0;
+      transform: translateX(-50%);
+      height: 5px;
+      width: 388px;
+      background: linear-gradient(
+        180deg,
+        #d9d9d9 -15.79%,
+        rgba(217, 217, 217, 0) 52.63%
+      );
+      border-radius: 50%;
+      opacity: 0.3;
+      //   transform: rotate(180deg);
+    }
+  }
+  .WN_Grid {
+    margin: 0 auto;
+    max-width: 1091px;
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+    @media screen and (max-width: 767px) {
+      gap: 10px;
+    }
+    .WN_TopGrid {
+      display: flex;
+      justify-content: center;
+      gap: 39px;
+      @media screen and (max-width: 800px) {
+        flex-direction: column;
+      }
+      @media screen and (max-width: 767px) {
+        gap: 10px;
+      }
+      .TG_Left {
+        background: linear-gradient(100.99deg, #1a1a1a 0.44%, #101010 99.34%);
+        border-left: 0.1px solid #30302f;
+        border-radius: 8px;
+        width: 320px;
+        height: 334px;
+        padding: 40px 35px 15px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 53px;
+        @media screen and (max-width: 800px) {
+          width: 100%;
+        }
+        @media screen and (max-width: 767px) {
+          padding: 40px 23px 15px 29px;
+        }
+        .head_Sec {
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 20px;
+          text-align: center;
+          letter-spacing: 0.32px;
+          background: linear-gradient(90.24deg, #fde16a 2.42%, #d9c779 96.33%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 10px;
+          .iconWrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+              height: 100%;
+              width: 100%;
+            }
+          }
+        }
+        .ranges {
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+          .range {
+            border-top: 1px solid #25292e;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .km {
+              font-weight: 400;
+              font-size: 40px;
+              line-height: 80px;
+              color: #d7d7d7;
+            }
+            .rangetext {
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 20px;
+              color: #b6b6b6;
+              width: 84px;
+              sup {
+                top: 0 !important;
+              }
+            }
+          }
+        }
+      }
+      .TG_Right {
+        background: linear-gradient(100.99deg, #1a1a1a 0.44%, #101010 99.34%);
+        border-left: 0.1px solid #30302f;
+        border-radius: 8px;
+        max-width: 732px;
+        min-height: 334px;
+        padding: 42px 45px 39px 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 58px;
+        @media screen and (max-width: 767px) {
+          padding: 42px 28px 27px 24px;
+          gap: 48px;
+        }
+        .head_Sec {
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 20px;
+          text-align: center;
+          letter-spacing: 0.32px;
+          background: linear-gradient(90.24deg, #fde16a 2.42%, #d9c779 96.33%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 10px;
+          .iconWrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+              height: 100%;
+              width: 100%;
+            }
+          }
+        }
+        .features {
+          min-height: 175px;
+          width: 100% !important;
+          display: flex;
+          gap: 30px;
+          @media screen and (max-width: 1139px) {
+            flex-direction: column;
+          }
+          .featureBox {
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+            .featureTitle {
+              font-weight: 400;
+              font-size: 20px;
+              line-height: 25px;
+              color: #d7d7d7;
+              text-align: start;
+              @media screen and (max-width: 767px) {
+                font-size: 16px;
+              }
+            }
+            .imgWrapper {
+              width: 306px;
+              height: 128px;
+              border-radius: 10px;
+
+              @media screen and (max-width: 767px) {
+                // width: 260px;
+                width: 100% !important;
+                height: 109.42px;
+              }
+              img {
+                height: 100%;
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+    .WN_BottomGrid {
+      max-width: 1090px;
+      min-height: 235px;
+      background: linear-gradient(100.99deg, #1a1a1a 0.44%, #101010 99.34%);
+      border-left: 1px solid #30302f;
+      border-radius: 8px;
+      display: flex;
+      @media screen and (max-width: 1139px) {
+        flex-direction: column;
+      }
+      .BG_Left {
+        width: 41.78%;
+        position: relative;
+        @media screen and (max-width: 1139px) {
+          width: 100%;
+          height: 235px;
+        }
+        @media screen and (max-width: 767px) {
+          height: 137px;
+        }
+        .background {
+          height: 100%;
+          width: 100%;
+        }
+        .box {
+          position: absolute;
+          top: 63.78px;
+          left: 37px;
+          display: flex;
+          flex-direction: column;
+          gap: 13.55px;
+          width: 317px;
+          @media screen and (max-width: 767px) {
+            width: 260px;
+            left: 31.2px;
+            top: 42px;
+          }
+          .logoWrapper {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 317px;
+            // height: 23.67px;
+            @media screen and (max-width: 767px) {
+              width: 221.32px;
+              // height: 17.25px;
+            }
+            img {
+              height: 100%;
+              width: 100%;
+            }
+          }
+          .desc {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            color: #b6b6b6;
+            @media screen and (max-width: 767px) {
+              font-size: 12px;
+              line-height: 16px;
+            }
+          }
+        }
+      }
+      .BG_Right {
+        width: 58.22%;
+        padding: 55px 23px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 37px;
+        @media screen and (max-width: 1139px) {
+          width: 100%;
+        }
+        @media screen and (max-width: 767px) {
+          gap: 26px;
+          padding: 33px 30.6px 29px 32px;
+        }
+        .featureBox2 {
+          width: 259.4px;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 12px;
+          @media screen and (max-width: 767px) {
+            width: 249.4px;
+          }
+          .iconWrapper {
+            height: 44px;
+            width: 44px;
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @media screen and (max-width: 767px) {
+              height: 34px;
+              width: 34px;
+            }
+          }
+          .feature {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #d7d7d7;
+          }
+        }
+      }
+    }
+  }
+  .quote {
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 85px;
+    text-align: center;
+    color: #7b7b7b;
+    margin-bottom: 76.8px;
+    @media screen and (max-width: 767px) {
+      font-size: 30px;
+      line-height: 50px;
+    }
+  }
+}

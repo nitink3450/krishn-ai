@@ -1,0 +1,80 @@
+[
+  {
+    "id": 0,
+    "title": "What’s new",
+    "component_1": [
+      {
+        "id": 0,
+        "title": "Improved Range",
+        "icon": "/Images/gen4/scooter-icon.svg",
+        "ranges": [
+          {
+            "id": 0,
+            "rangeName": "Certified Range",
+            "range": "156 km",
+            "registered": true
+          },
+          {
+            "id": 1,
+            "rangeName": "True &nbsp; Range",
+            "range": "105 km",
+            "registered": true
+          }
+        ]
+      }
+    ],
+    "component_2": [
+      {
+        "id": 0,
+        "title": "More Safety",
+        "icon": "/Images/gen4/safteyShield-icon.svg",
+        "features": [
+          {
+            "id": 0,
+            "feature": "Fall safe",
+            "img": "/Images/gen4/dummyImg-1.svg"
+          },
+          {
+            "id": 1,
+            "feature": "Emergency Stop Signal",
+            "img": "/Images/gen4/dummyImg-2.svg"
+          }
+        ]
+      }
+    ],
+    "component_3": [
+      {
+        "id": 0,
+        "title": "Ather Stack 6",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "icon": "/Images/gen4/atherStackLogo.svg",
+        "features": [
+          {
+            "id": 0,
+            "feature": "Whatsapp to Ather",
+            "img": "/Images/gen4/calling-icon.svg",
+            "background": "#F3FFF4"
+          },
+          {
+            "id": 1,
+            "feature": "Auto-reply while riding",
+            "img": "/Images/gen4/calling-icon.svg",
+            "background": "#FCF3D0"
+          },
+          {
+            "id": 2,
+            "feature": "Pre ride vehicle readiness",
+            "img": "/Images/gen4/calling-icon.svg",
+            "background": "#FCF3D0"
+          },
+          {
+            "id": 3,
+            "feature": "Ride highlights",
+            "img": "/Images/gen4/calling-icon.svg",
+            "background": "#F3FFF4"
+          }
+        ]
+      }
+    ]
+  }
+]

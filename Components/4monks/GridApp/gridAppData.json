@@ -1,0 +1,36 @@
+[
+  {
+    "grid": [
+      {
+        "id": 1,
+        "img": "/images/gridv2/screen-1.png",
+        "icon": "/images/gridv2/icons/charging-station.svg",
+        "text": "<span>Find a charger </span>near you easily. "
+      },
+      {
+        "id": 2,
+        "img": "/images/gridv2/screen-2.png",
+        "icon": "/images/gridv2/icons/qrcode.svg",
+        "text": "<span>Scan the QR code </span>to get started."
+      },
+      {
+        "id": 3,
+        "img": "/images/gridv2/screen-3.png",
+        "icon": "/images/gridv2/icons/battery-bolt.svg",
+        "text": "<span>Start charging </span>- as easy as 1-2-3"
+      }
+    ],
+    "stores": [
+      {
+        "id": 1,
+        "img": "/images/gridv2/app-store.png",
+        "url": "#"
+      },
+      {
+        "id": 1,
+        "img": "/images/gridv2/google-play.png",
+        "url": "#"
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "tabs": [
+      {
+        "id": 1,
+        "title": "Segmented <br/>EBN display",
+        "label": "&nbsp;",
+        "desc": "Lorem ipsum dolor sit amet consectetur. Quis felis id viverra suscipit ullamcorper. Urna ipsum at varius  Lorem ipsum dolor sit amet consectetur. Quis felis id viverra suscipit ullamcorper.",
+        "url": "/images/Gen4/videos/ather.mp4"
+      },
+      {
+        "id": 2,
+        "title": "Turn by turn <br/>navigation",
+        "label": "&nbsp;",
+        "desc": "Lorem ipsum dolor sit amet consectetur. Quis felis id viverra suscipit ullamcorper. Urna ipsum at varius  Lorem ipsum dolor sit amet consectetur.",
+        "url": "/images/Gen4/videos/natureClip.mp4"
+      },
+      {
+        "id": 3,
+        "title": "Auto reply <br/>SMS",
+        "label": "&nbsp;",
+        "desc": "Lorem ipsum dolor sit amet consectetur. Quis felis id viverra suscipit ullamcorper. Urna ipsum at varius  Lorem ipsum dolor sit amet consectetur. Quis felis id viverra suscipit ullamcorper. Urna ipsum at varius ",
+        "url": "/images/Gen4/videos/ather.mp4"
+      },
+      {
+        "id": 4,
+        "title": "Accept/ <br/>reject calls",
+        "label": "Bluetooth",
+        "desc": "Lorem ipsum dolor sit amet consectetur. Quis felis id viverra suscipit ullamcorper. Urna ipsum at varius  Lorem ipsum dolor sit amet consectetur.",
+        "url": "/images/Gen4/videos/natureClip.mp4"
+      },
+      {
+        "id": 5,
+        "title": "Control your <br/>music",
+        "label": "Bluetooth",
+        "desc": "Lorem ipsum dolor sit amet consectetur. Quis felis id viverra suscipit ullamcorper. Urna ipsum at varius  Lorem ipsum dolor sit amet consectetur. Quis felis id viverra suscipit ullamcorper. Urna ipsum at varius ",
+        "url": "/images/Gen4/videos/ather.mp4"
+      }
+    ]
+  }
+]

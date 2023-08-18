@@ -1,0 +1,59 @@
+[
+  {
+    "id": 0,
+    "title": "Paint the road.",
+    "desc": "Colors that match your personality",
+    "premium450x": [
+      {
+        "id": 0,
+        "colorName": "True Red",
+        "colorCode": "#CA2C2C",
+        "FullImg": "/Images/gen4/Ather450xImgRed.svg",
+        "FrontImg": "/Images/gen4/Ather450xImg2Front.svg",
+        "BackImg": "/Images/gen4/Ather450xImg2Back.svg"
+      },
+      {
+        "id": 1,
+        "colorName": "Lunar Grey",
+        "colorCode": "#C1C1C1",
+        "FullImg": "/Images/gen4/Ather450xImg.svg",
+        "FrontImg": "/Images/gen4/Ather450xImg2Front.svg",
+        "BackImg": "/Images/gen4/Ather450xImg2Back.svg"
+      }
+    ],
+    "colorList": [
+      {
+        "id": 0,
+        "colorName": "Cosmic Black",
+        "colorCode": "#000000",
+        "FullImg": "/Images/gen4/Ather450xImg.svg",
+        "FrontImg": "/Images/gen4/Ather450xImg2Front.svg",
+        "BackImg": "/Images/gen4/Ather450xImg2Back.svg"
+      },
+      {
+        "id": 1,
+        "colorName": "Pistachio Green",
+        "colorCode": "#B8DDB5",
+        "FullImg": "/Images/gen4/Ather450xImgRed.svg",
+        "FrontImg": "/Images/gen4/Ather450xImg2Front.svg",
+        "BackImg": "/Images/gen4/Ather450xImg2Back.svg"
+      },
+      {
+        "id": 2,
+        "colorName": "Slate Grey",
+        "colorCode": "#4C5054",
+        "FullImg": "/Images/gen4/Ather450xImg.svg",
+        "FrontImg": "/Images/gen4/Ather450xImg2Front.svg",
+        "BackImg": "/Images/gen4/Ather450xImg2Back.svg"
+      },
+      {
+        "id": 3,
+        "colorName": "Pure White",
+        "colorCode": "#FFFFFF",
+        "FullImg": "/Images/gen4/Ather450xImgRed.svg",
+        "FrontImg": "/Images/gen4/Ather450xImg2Front.svg",
+        "BackImg": "/Images/gen4/Ather450xImg2Back.svg"
+      }
+    ]
+  }
+]

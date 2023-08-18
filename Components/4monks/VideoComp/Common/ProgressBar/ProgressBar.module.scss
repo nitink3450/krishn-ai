@@ -1,0 +1,28 @@
+.progressBar {
+  position: absolute;
+  bottom: 18.5px;
+  right: 20px;
+  z-index: 1;
+
+  @media (max-width: 900px) {
+    transform: scale(0.55);
+    bottom: 9px;
+    right: 10px;
+  }
+
+  .circle_background,
+  .circle_progress {
+    fill: none;
+  }
+
+  .circle_background {
+    stroke: transparent;
+  }
+
+  .circle_progress {
+    stroke: #f7f7f7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: 1.5s linear;
+  }
+}

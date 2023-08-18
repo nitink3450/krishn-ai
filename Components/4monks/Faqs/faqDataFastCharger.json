@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "title": "How can I get Ather Neighbourhood Charging installed in my apartment/office/University campus?",
+    "desc": "<p>Getting Ather Neighbourhood Charging to your apartment, office or campus is as easy as going WARP mode on your Ather. Just click here and one of our business partners will get in touch with the management committee, through you. We'll take care of everything ourselves, from installation to maintenance, and you can take all the credit from your neighbours and colleagues.</p>"
+  },
+  {
+    "id": 1,
+    "title": "What is the minimum number of Ather owners an apartment or campus must have to be eligible for Ather Neighbourhood Charging?",
+    "desc": "<p>Don't worry, there's no minimum number of Ather owners required. These chargers fit all EVs, so even a few EV owners should be enough for us to be able to engage with the RWA or Office Building authorities.</p>"
+  },
+  {
+    "id": 2,
+    "title": "How many EVs can be charged with Ather Neighbourhood Charging?",
+    "desc": "<p>One unit can charge one EV at a time, for now.  We would love to install multiple points if the space permits, in high EV traffic places.</p>"
+  },
+  {
+    "id": 3,
+    "title": "How does Ather Neighbourhood Charging work?",
+    "desc": "<p>All you need to do is plug in your portable charger into the Ather Neighbourhood Charging socket. Download the Ather Grid App (or the Ather app, if you're an Ather owner), scan the QR code, start charging and pay when you're done. Ta-da!</p>"
+  },
+  {
+    "id": 4,
+    "title": "Are all EVs compatible with Ather Neighbourhood Charging?",
+    "desc": "<p>Ather Neighbourhood Chargers can be used to charge any EV, as long as you have carrying the portable charger. Industrial plugs (IEC 60309) and domestic 3-pin plugs (5 amp & 16 amp) are both supported, and most EVs have either type on their portable chargers.</p>"
+  },
+  {
+    "id": 5,
+    "title": "How long does Ather Neighbourhood Charging take to charge my EV?",
+    "desc": "<p>Depending on the battery capacity of your EV, these 3.3 kW AC chargers can take up to 8-10 hours (Tata Nexon EV Prime) or less than 4-5 hours (Ather 450X) to fully charge your vehicle.</p>"
+  },
+  {
+    "id": 6,
+    "title": "Can I remotely monitor the charging status of my EV?",
+    "desc": "<p>You can either check the Ather Grid App (or Ather app/ vehicle dashboard for Ather owners) to check the charging time left or your own EV's app.</p>"
+  }
+]

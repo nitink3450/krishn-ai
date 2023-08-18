@@ -1,0 +1,81 @@
+.videotabs {
+  &_each {
+    @media (max-width: 900px) {
+      background: #ffffff;
+      border-radius: 0 0 4px 4px;
+      padding: 16px;
+      min-height: 180px;
+    }
+
+    &--title {
+      display: none;
+      font-size: 14px;
+      line-height: 20px;
+      color: #191919;
+      margin-bottom: 8px;
+      font-family: "neurial-grotesk-medium";
+
+      @media (max-width: 900px) {
+        display: block;
+      }
+    }
+
+    &--text {
+      font-size: 14px;
+      line-height: 20px;
+      color: #191919;
+      max-width: 580px;
+      margin: 0 auto;
+      padding: 28px 0;
+      text-align: center;
+
+      @media (max-width: 900px) {
+        text-align: left;
+        font-size: 12px;
+        line-height: 16px;
+        color: #9a9c9d;
+        padding-top: 0px;
+      }
+    }
+  }
+}
+
+.pagination_label {
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.videotabsv2 {
+  &_wrap {
+    @media (max-width: 900px) {
+      background: #191919;
+    }
+
+    .pagination_label {
+      @media (max-width: 900px) {
+        font-size: 0px;
+        margin-bottom: 0px;
+        line-height: 0px;
+      }
+    }
+  }
+
+  .videotabs_each {
+    background: transparent;
+    padding-top: 50px;
+
+    &--title {
+      color: #ffffff;
+      font-size: 17px;
+      line-height: 24px;
+    }
+
+    &--text {
+      color: #9a9c9d;
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}

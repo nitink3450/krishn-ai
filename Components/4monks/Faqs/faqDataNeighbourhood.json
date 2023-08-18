@@ -1,0 +1,72 @@
+[
+    {
+        "id": 0,
+        "title": "How can I get Ather Neighbourhood Charging installed in my apartment/office/University campus?",
+        "desc": "<p>Getting Ather Neighbourhood Charging to your apartment, office or campus is as easy as going WARP mode on your Ather. Just click here and one of our business partners will get in touch with the management committee, through you. We'll take care of everything ourselves, from installation to maintenance, and you can take all the credit from your neighbours and colleagues.</p>"
+    },
+    {
+        "id": 1,
+        "title": "What is the minimum number of Ather owners an apartment or campus must have to be eligible for Ather Neighbourhood Charging?",
+        "desc": "<p>Don't worry, there's no minimum number of Ather owners required. These chargers fit all EVs, so even a few EV owners should be enough for us to be able to engage with the RWA or Office Building authorities.</p>"
+    },
+    {
+        "id": 2,
+        "title": "How many EVs can be charged with Ather Neighbourhood Charging?",
+        "desc": "<p>One unit can charge one EV at a time, for now.  We would love to install multiple points if the space permits, in high EV traffic places.</p>"
+    },
+    {
+        "id": 3,
+        "title": "How does Ather Neighbourhood Charging work?",
+        "desc": "<p>All you need to do is plug in your portable charger into the Ather Neighbourhood Charging socket. Download the Ather Grid App (or the Ather app, if you're an Ather owner), scan the QR code, start charging and pay when you're done. Ta-da!</p>"
+    },
+    {
+        "id": 4,
+        "title": "Are all EVs compatible with Ather Neighbourhood Charging?",
+        "desc": "<p>Ather Neighbourhood Chargers can be used to charge any EV, as long as you have carrying the portable charger. Industrial plugs (IEC 60309) and domestic 3-pin plugs (5 amp & 16 amp) are both supported, and most EVs have either type on their portable chargers.</p>"
+    },
+    {
+        "id": 5,
+        "title": "How long does Ather Neighbourhood Charging take to charge my EV?",
+        "desc": "<p>Depending on the battery capacity of your EV, these 3.3 kW AC chargers can take up to 8-10 hours (Tata Nexon EV Prime) or less than 4-5 hours (Ather 450X) to fully charge your vehicle.</p>"
+    },
+    {
+        "id": 6,
+        "title": "Can I remotely monitor the charging status of my EV?",
+        "desc": "<p>You can either check the Ather Grid App (or Ather app/ vehicle dashboard for Ather owners) to check the charging time left or your own EV's app.</p>"
+    },
+    {
+        "id": 7,
+        "title": "How do I start and end a charging session?",
+        "desc": "<p>You can start and end a charging session using the Ather Grid app or Ather app (for Ather owners). In case of emergency only, the red emergency switch can be pressed to stop charging. But, please, don't let the curiosity get the better of you, unless it's an emergency.</p>"
+    },
+    {
+        "id": 8,
+        "title": "Once I complete a charging session, when can I start another one?",
+        "desc": "<p>You can start a charging session at any time, as long as you've cleared your payment dues, if any, for the previous charging session.</p>"
+    },
+    {
+        "id": 9,
+        "title": "What happens if my charging session is interrupted or there's an error while charging?",
+        "desc": "<p>This is super rare, but it can happen due to system errors, power failures or if someone unplugs the charger. If any of these happen, you will be notified and the session will end. You will only be charged for the amount of power consumed until the error occurs. If you want to continue, just clear the bill, scan the charger and start a new session.</p>"
+    },
+    {
+        "id": 10,
+        "title": "What happens if there is a power cut? Does charging resume once the power supply is restored?",
+        "desc": "<p>In the event of a power cut, your charging session will end and you'll get a notification on your app. Don't worry, you will only be charged for the power units consumed before the power cut. Besides, you can always start a new charging session once the power supply is restored.</p>"
+    },
+    {
+        "id": 11,
+        "title": "My charging/payment summary mentions 'EV Charging Fees'. What does it mean?",
+        "desc": "<p>This is a combined amount ones pays post the charging session for using the Neighbourhood charging. It covers electricity costs and a nominal service fee for charger maintenance, system maintenance, network expenses etc.</p>"
+    },
+    {
+        "id": 12,
+        "title": "What features does the Ather Grid App provide?",
+        "desc": "<p>With the Ather Grid App, charging & monitoring charge has never been easier. You can check for charger availability, scan to start charging, monitor the charging session remotely, pay for it and see an overview of all your charging sessions, payments, refunds and ask for help with your account - all with just a few taps.</p>"
+    },
+    {
+        "id": 13,
+        "title": "How much does it cost to charge my EV through Ather Neighbourhood Charging?",
+        "desc": "<p>The cost of each charging session varies. It's a combination of number of units consumed (depends on how long your charging session lasts) for a charging cycle plus the Ather Service charges decided at the time of agreement signing with the RWA or Office Authorities.</p>"
+    }
+]

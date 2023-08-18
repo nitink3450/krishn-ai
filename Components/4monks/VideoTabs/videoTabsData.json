@@ -1,0 +1,24 @@
+[
+  {
+    "tabs": [
+      {
+        "id": 1,
+        "title": "From concept to reality",
+        "desc": "Lorem ipsum dolor sit amet consectetur. Quis felis id viverra suscipit ullamcorper. Urna ipsum at varius  Lorem ipsum dolor sit amet consectetur. Quis felis id viverra suscipit ullamcorper.",
+        "url": "/images/Gen4/videos/ather.mp4"
+      },
+      {
+        "id": 2,
+        "title": "Quality",
+        "desc": "Lorem ipsum dolor sit amet consectetur. Quis felis id viverra suscipit ullamcorper. Urna ipsum at varius  Lorem ipsum dolor sit amet consectetur.",
+        "url": "/images/Gen4/videos/natureClip.mp4"
+      },
+      {
+        "id": 3,
+        "title": "The Design",
+        "desc": "Lorem ipsum dolor sit amet consectetur. Quis felis id viverra suscipit ullamcorper. Urna ipsum at varius  Lorem ipsum dolor sit amet consectetur. Quis felis id viverra suscipit ullamcorper. Urna ipsum at varius ",
+        "url": "/images/Gen4/videos/ather.mp4"
+      }
+    ]
+  }
+]
